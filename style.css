@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 9pt;
+}
+
+.saludo{
+    font-size: 15pt;
+    font-weight: 1000;
+}
+
+.entrada{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img{
+    max-width: 230px;
+    border-radius: 5px;
+}
+
+.buttons{
+    margin: 20px;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+}
+
+.user-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cat-fact-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bitcoin-price-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dog-image-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.US-population-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    transition: font-size, .2s;
+}
+
+button:hover{
+    font-size: 10pt;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
